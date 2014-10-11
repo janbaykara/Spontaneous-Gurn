@@ -24,10 +24,10 @@ var dirs = {
     html:    ['frontend/html/*']
   },
   prod: {
-    images:   'assets/images',
-    scripts:  'assets/scripts',
-    styles:   'assets/styles',
-    views:    'assets/views'
+    images:   '.tmp/public/images',
+    scripts:  '.tmp/public/scripts',
+    styles:   '.tmp/public/styles',
+    views:    '.tmp/public/views'
   }
 }
 

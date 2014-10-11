@@ -5,8 +5,7 @@ node_modules/
 
 # Gulp
 .sass-cache
-public/
-assets/
+.tmp/
 
 # OS Generated
 .DS_Store*
