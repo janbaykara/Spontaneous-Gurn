@@ -1,4 +1,4 @@
-# 'Spontaneous Node'
+## 'Spontaneous Node'
 
 ### A personal MEAN boilerplate
     
@@ -6,7 +6,7 @@
 
   I may or may not turn it into a yeoman generator at some point.
     
-### Frontend 7th Symphony, composed by Wolfgang Gulpenstein
+#### Frontend 7th Symphony, composed by Wolfgang Gulpenstein
   - A meaty **gulpfile** that works alongside **skeleton structures** for...
   - **OOSCSS**
     - *SASS* preprocessor
@@ -16,7 +16,7 @@
 
   NB: All outdoor-facing frontend assets distribute to `/assets/(styles|scripts|images|...)`
 
-### TODO: Backend Overture, by the massed phillharmonic Node/Sails orchestra
+#### TODO: Backend Overture, by the massed phillharmonic Node/Sails orchestra
   - An optional skeleton for **Node.js** development utilising...
   - **Sails.js** 
   - **Swig** html rendering
@@ -39,7 +39,9 @@ I use this simple notation system in conjunction with a texteditor's find-in-fil
   !!! : KILL    : Fix this inconsistency / bug
 ```
 
-### SCSS style guide
+### Style guide
+
+#### SCSS
   - With inspiration from [BEM][BEM], [CSSGuidelin.es][CSSG] and [TitleCSS][TtlCSS]
 
 ```
