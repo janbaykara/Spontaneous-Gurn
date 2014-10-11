@@ -1,14 +1,12 @@
-# NPM / Bower
+# Packages
 vendor/
+bower_components/
 node_modules/
 
-# Gulp generated
+# Gulp
 .sass-cache
-public
-
-# Composer
-composer.lock
-composer.phar
+public/
+assets/
 
 # OS Generated
 .DS_Store*
@@ -18,4 +16,5 @@ Thumbs.db
 *.swp
 
 # Misc
-logs/*
+logs/
+errors/
