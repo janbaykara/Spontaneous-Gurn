@@ -12,16 +12,16 @@ var plugins = gulpLoadPlugins();
 var dirs = {
   dev: {
     config:  ['bower.json','package.json'],
-    img:     ['frontend/img/**/*.jpg',
-              'frontend/img/**/*.jpeg',
-              'frontend/img/**/*.gif',
-              'frontend/img/**/*.png'],
-    svg:     ['frontend/img/**/*.svg'],
-    js:      ['frontend/js/*.js'],
-    data:    ['frontend/data/*.json'],
-    sass:    ['frontend/sass/*.scss'],
-    fonts:   ['frontend/fonts/*'],
-    html:    ['frontend/html/*']
+    img:     ['assets/img/**/*.jpg',
+              'assets/img/**/*.jpeg',
+              'assets/img/**/*.gif',
+              'assets/img/**/*.png'],
+    svg:     ['assets/img/**/*.svg'],
+    js:      ['assets/js/*.js'],
+    data:    ['assets/data/*.json'],
+    sass:    ['assets/sass/*.scss'],
+    fonts:   ['assets/fonts/*'],
+    html:    ['assets/html/*']
   },
   prod: {
     images:   '.tmp/public/images',
@@ -70,7 +70,7 @@ gulp.task('install', function () {
 
   // Vendor JS
   gulp.task('libs', function() {
-    gulp.src(mainBowerFiles(/* options */), { base: 'vendor' })
+    gulp.src(mainBowerFiles(), { base: 'vendor' })
     .pipe(plugins.concat('libs.min.js'))
     .pipe(plugins.size({showFiles: true}))
     .pipe(plugins.uglify({mangle: false}))
