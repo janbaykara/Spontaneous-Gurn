@@ -24,25 +24,6 @@
   - **Passport.js** auth
   - **Orchestrate.io** data service (via sails-orchestra adapter)
 
-### Universal find-in-file notation
-I use this simple notation system in conjunction with a texteditor's find-in-file search function. The defined glyphs are used within comments, preferably at the start of new lines, and in most cases are followed by a concise accompanying note.
-
-##### Glyphs v2.0:
-```
-  @@@ : NB      : Generic find-in-file prefix (for HTML, use <!--# -->)
-  >>> : MEAT    : Add some meat to this dummy/skeleton codeblock
-  <<< : GUT     : Remove this unused/unecessarily large codeblock
-  ^^^ : REFACTOR: Neaten up, improve or rework the internals of this system
-  VVV : HUNT    : Hunt out and remove all references/dependencies to this codeblock
-  ??? : PONDER  : Reconsider the implementation/necessity of this codeblock
-  <-> : SPLIT   : Pull this codeblock apart, into more manageable/reusable chunks
-  >-< : UNIFY   : Merge this codeblock with another near-identical block 
-  +++ : BUILD   : Accompanying comment suggests a new feature
-  !!! : KILL    : Fix this inconsistency / bug
-```
-
-### Style guide
-
 #### SCSS
   - With inspiration from [BEM][BEM], [CSSGuidelin.es][CSSG] and [TitleCSS][TtlCSS]
 
