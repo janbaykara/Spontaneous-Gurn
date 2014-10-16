@@ -35,7 +35,8 @@ I use this simple notation system in conjunction with a texteditor's find-in-fil
   ^^^ : REFACTOR: Neaten up, improve or rework the internals of this system
   VVV : HUNT    : Hunt out and remove all references/dependencies to this codeblock
   ??? : PONDER  : Reconsider the implementation/necessity of this codeblock
-  >-< : SPLIT   : Pull this codeblock apart, into more manageable/reusable chunks
+  <-> : SPLIT   : Pull this codeblock apart, into more manageable/reusable chunks
+  >-< : UNIFY   : Merge this codeblock with another near-identical block 
   !!! : KILL    : Fix this inconsistency / bug
 ```
 
