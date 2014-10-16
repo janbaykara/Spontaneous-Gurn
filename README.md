@@ -29,7 +29,7 @@ I use this simple notation system in conjunction with a texteditor's find-in-fil
 
 ##### Glyphs v2.0:
 ```
-  //# : NB      : Generic find-in-file prefix (for HTML, use <!--# -->)
+  @@@ : NB      : Generic find-in-file prefix (for HTML, use <!--# -->)
   >>> : MEAT    : Add some meat to this dummy/skeleton codeblock
   ^^^ : UPGRADE : Replace this codeblock with a better library/implementation etc
   +++ : BUILD   : Accompanying comment suggests a new feature
