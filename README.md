@@ -31,8 +31,8 @@ I use this simple notation system in conjunction with a texteditor's find-in-fil
 ```
   @@@ : NB      : Generic find-in-file prefix (for HTML, use <!--# -->)
   >>> : MEAT    : Add some meat to this dummy/skeleton codeblock
-  ^^^ : UPGRADE : Replace this codeblock with a better library/implementation etc
   +++ : BUILD   : Accompanying comment suggests a new feature
+  ^^^ : REFACTOR: Neaten up, improve or rework the internals of this system
   VVV : HUNT    : Hunt out and remove all references/dependencies to this codeblock
   ??? : PONDER  : Reconsider the implementation/necessity of this codeblock
   >-< : SPLIT   : Pull this codeblock apart, into more manageable/reusable chunks
